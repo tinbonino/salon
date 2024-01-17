@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+
+  --background: white;
+  --primary: white;
+  --secondary:black;
+}
+
+html {
+  font-size: 12px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+}
+
+header {
+  background: var(--background);
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  /* height: 100vh; */
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+footer {
+  height: 120px;
+  background-color: blue;
+}
+
+#logo {
+  width: 250px;
+}
+
+
+#hero,#servicios {
+  
+  padding: 70px 30px;
+  max-width: 1200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: rgb(208, 236, 246);
+
+  gap: 15px;
+}
+
+#hero img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+#hero p {
+  max-width: 40%;
+  font-weight: 600;
+  font-size: 2rem;
+  color: purple;
+}
+
+#servicios {
+  background-color: white;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+
+#servicios p{
+  max-width: 80%;
+  margin: 0;
+}
+
+#servicios h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 180px;
+  align-items: center;
+  text-align: center;
+  background-color:rgb(220, 178, 238);
+  border-radius: 10px;
+  gap: 30px;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+.container {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+}
